@@ -9,7 +9,7 @@ int main() {
         scanf("%d", &tab[i]);
         somme += tab[i]; // on cumule la somme
     }
-
+    
     float moyenne = (float)somme / n;
     printf("La moyenne est : %.2f\n", moyenne);
     return 0;
